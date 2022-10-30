@@ -18,6 +18,7 @@ About the game:
 This is a card game which has four players(maybe robots).
 
 The function of cards:
+
 1.**Bomb**:If there's a **_Bomb_** in your hand,**discard it immediately**.Then check whether there's a **_Remove_** in your hand.
 If there's a **_Remove_** in your hand luckily,then discard a **_Remove_** as well.
 If there's no **_Remove_** in your hand,then,unfortunately,you **lose** the game.
@@ -43,12 +44,17 @@ Attention:You can't reject **_Remove_** and **_Reject_** itself.
 The rule of the game:
 
 At the beginning,every player have five cards in his/her hand(at least a **_Remove_** in case you lose at the beginning).
+
 Every turn,the corresponding player should check whether there's a **_Bomb_** in his/her hand.
+
 If there's a Bomb,he/she should check whether there's a **_Remove_** in his/her hand.
 If there is a **_Remove_**, you should discard
 If there isn't a **_Remove_**,he/she will lose the game.
+
 Then the player goes to the discard stage. He/She needs to discard a card.
+
 After the function of the card discarded come into effect,the player will get the card on the top of the pile.
 Check whether the card is a **_Bomb_** or not.
+
 Then it's the next player's turn.
  
