@@ -57,4 +57,3 @@ After the function of the card discarded come into effect,the player will get th
 Check whether the card is a **_Bomb_** or not.
 
 Then it's the next player's turn.
- 
