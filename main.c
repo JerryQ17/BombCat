@@ -56,7 +56,7 @@ int SDL_main(int argc, char *argv[]) {
                 break;
             case SDL_MOUSEBUTTONDOWN: //鼠标按下
                 printf(("(%d,%d)\n"),MainEvent.button.x,MainEvent.button.y);
-              PLAY();
+                PLAY();
                 break;
             case SDL_MOUSEBUTTONUP: //鼠标抬起
                 break;
@@ -74,14 +74,14 @@ int SDL_main(int argc, char *argv[]) {
 
 
 void LOAD() {
-    MainBackGroundSurface = IMG_Load(("mainUI.png")); //用于加载图片
+    MainBackGroundSurface = IMG_Load(("image/mainUI.png")); //用于加载图片
     MainBackGroundTexture = SDL_CreateTextureFromSurface(Renderer,MainBackGroundSurface);
     MainBackGroundRect.x = 0;
     MainBackGroundRect.y = 0;
     //框的左上角为(0,0)的坐标系放图片
     MainBackGroundRect.w = MainBackGroundSurface -> w;
     MainBackGroundRect.h = MainBackGroundSurface -> h;
-    PlayBackGroundSurface = IMG_Load(("test.png"));
+    PlayBackGroundSurface = IMG_Load(("image/test.png"));
     PlayBackGroundTexture = SDL_CreateTextureFromSurface(Renderer,PlayBackGroundSurface);
     PlayBackGroundRect.x = 0;
     PlayBackGroundRect.y = 0;
