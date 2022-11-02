@@ -3,7 +3,7 @@ project(BombCat)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(main main.c)
+add_executable(main main.c foresee.c trick.c skip.c forbid.c favor.c attack.c bomb.c)
 
 target_link_libraries(main mingw32)
 target_link_libraries(main SDL2main)

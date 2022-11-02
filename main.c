@@ -1,10 +1,5 @@
 #include "BombCatHeader.h"
 
-#include "SDL2/SDL.h"
-#include "SDL2/SDL_image.h"
-#include "SDL2/SDL_ttf.h"
-#include <stdio.h>
-
 void LOAD (); //用来加载图片的
 void PLAY (); //开始游戏的函数
 
