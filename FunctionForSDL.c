@@ -1,6 +1,5 @@
 #include "BombCatHeader.h"
 
-
 void LoadPicture() {
   MainBackGroundSurface = IMG_Load(("image/mainUI.png")); //用于加载图片
   MainBackGroundTexture = SDL_CreateTextureFromSurface(Renderer,MainBackGroundSurface);
@@ -9,7 +8,7 @@ void LoadPicture() {
   //框的左上角为(0,0)的坐标系放图片
   MainBackGroundRect.w = MainBackGroundSurface -> w;
   MainBackGroundRect.h = MainBackGroundSurface -> h;
-  PlayBackGroundSurface = IMG_Load(("image/test.png"));
+  PlayBackGroundSurface = IMG_Load(("image/gameUI.png"));
   PlayBackGroundTexture = SDL_CreateTextureFromSurface(Renderer,PlayBackGroundSurface);
   PlayBackGroundRect.x = 0;
   PlayBackGroundRect.y = 0;
