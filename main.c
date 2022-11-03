@@ -37,7 +37,7 @@ int SDL_main(int argc, char *argv[]) {
 	  case SDL_MOUSEBUTTONDOWN: //鼠标按下
 		printf(("(%d,%d)\n"), MainEvent.button.x, MainEvent.button.y);
 		if (MainEvent.button.x >= 228 && MainEvent.button.x <= 427 && MainEvent.button.y >= 440 && MainEvent.button.y <= 540) {
-		  Draw(PlayBackGroundTexture);
+		  BeginGame();
 		}
 		break;
 	  case SDL_MOUSEBUTTONUP: //鼠标抬起
@@ -51,6 +51,15 @@ int SDL_main(int argc, char *argv[]) {
   QUIT();
   // SDL_Quit(); //类似于return 0;
 }
+
+void BeginGame () {
+  Draw(PlayBackGroundTexture);
+  trick(CardPile,56);
+  for (int i = 0;i < 56;i++) {
+	printf("%d ",CardPile[i]);
+  }
+}
+
 
 
 

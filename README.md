@@ -16,7 +16,7 @@ The project can be found on GitHub(https://github.com/JerryQ17/BombCat.git).
 About the game:
 
 This is a card game which has four players(maybe robots).
-
+  
 The function of cards:
 
 1.**Bomb**:If there's a **_Bomb_** in your hand,**discard it immediately**.Then check whether there's a **_Remove_** in your hand.
@@ -33,9 +33,9 @@ If there's no **_Remove_** in your hand,then,unfortunately,you **lose** the game
 
 6.**Skip**:Skip your draw card stage.
 
-7.**Reject**:Unlike other cards that can only be discarded in your turn,**_Reject_** can be discarded anytime a player discard a _card_.
-Once you discard a **_Reject_**,the _card_ will lose its function.
-Attention:You can't reject **_Remove_** and **_Reject_** itself.
+7.**Forbid**:Unlike other cards that can only be discarded in your turn,**_Forbid_** can be discarded anytime a player discard a _card_.
+Once you discard a **_Forbid_**,the _card_ will lose its function.
+Attention:You can't forbid **_Remove_** and **_Forbid_** itself.
 
 8.**Favor**:You can choose a player and get a card in his/her hand.
 
