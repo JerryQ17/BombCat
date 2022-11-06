@@ -4,7 +4,7 @@ project(BombCat)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(main main.c foresee-card.c trick-card.c skip-card.c forbid-card.c
-        favor-card.c attack-card.c bomb-card.c FunctionForSDL.c Initialization.c)
+        favor-card.c attack-card.c bomb-card.c FunctionForSDL.c Initialization.c BombCatHeader.h)
 
 target_link_libraries(main mingw32)
 target_link_libraries(main SDL2main)

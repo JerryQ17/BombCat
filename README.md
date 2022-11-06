@@ -1,4 +1,5 @@
 # BombCat
+
 We four roommates decide to write a game called BombCat to practice our C programming skills.
 
 About the project:
@@ -16,10 +17,11 @@ The project can be found on GitHub(https://github.com/JerryQ17/BombCat.git).
 About the game:
 
 This is a card game which has four players(maybe robots).
-  
+
 The function of cards:
 
-1.**Bomb**:If there's a **_Bomb_** in your hand,**discard it immediately**.Then check whether there's a **_Remove_** in your hand.
+1.**Bomb**:If there's a **_Bomb_** in your hand,**discard it immediately**.Then check whether there's a **_Remove_** in
+your hand.
 If there's a **_Remove_** in your hand luckily,then discard a **_Remove_** as well.
 If there's no **_Remove_** in your hand,then,unfortunately,you **lose** the game.
 
@@ -27,13 +29,15 @@ If there's no **_Remove_** in your hand,then,unfortunately,you **lose** the game
 
 3.**Blank**:**No** function(just skip the discard stage).
 
-4.**Foresee**:You can see three cards on the top of the pile,then put them back to the top of the pile.(You **mustn't** change the order of the three cards.)
+4.**Foresee**:You can see three cards on the top of the pile,then put them back to the top of the pile.(You **mustn't**
+change the order of the three cards.)
 
 5.**Trick**:Shuffle the pile.
 
 6.**Skip**:Skip your draw card stage.
 
-7.**Forbid**:Unlike other cards that can only be discarded in your turn,**_Forbid_** can be discarded anytime a player discard a _card_.
+7.**Forbid**:Unlike other cards that can only be discarded in your turn,**_Forbid_** can be discarded anytime a player
+discard a _card_.
 Once you discard a **_Forbid_**,the _card_ will lose its function.
 Attention:You can't forbid **_Remove_** and **_Forbid_** itself.
 
@@ -43,7 +47,8 @@ Attention:You can't forbid **_Remove_** and **_Forbid_** itself.
 
 The rule of the game:
 
-At the beginning,every player have five cards in his/her hand(at least a **_Remove_** in case you lose at the beginning).
+At the beginning,every player have five cards in his/her hand(at least a **_Remove_** in case you lose at the beginning)
+.
 
 Every turn,the corresponding player should check whether there's a **_Bomb_** in his/her hand.
 
