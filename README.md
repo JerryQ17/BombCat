@@ -10,7 +10,7 @@ Developers:
 3.Luke-Evan
 4.(unknown)
 
-Timetable:The project will be completed in this term.
+Timetable:The project will be completed maybe in 1 year.
 
 The project can be found on GitHub(https://github.com/JerryQ17/BombCat.git).
 
